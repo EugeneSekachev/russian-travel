@@ -1,0 +1,14 @@
+.footer__link {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration: none;
+    color: white;
+    margin-right: 18px;
+    padding-bottom: 32px;
+}
+
+.header__lang-link:last-of-type {
+    margin-right: 0;
+}
+
