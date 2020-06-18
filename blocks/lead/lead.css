@@ -4,11 +4,11 @@
 @import url(./__caption/lead__coptain.css);
 
 .lead {
-    width: 90vw;
-    max-width: 984px;
-    max-height: 1005px;
-    margin: 0 auto;
-    padding: 28px 0 22px;
+  width: 90vw;
+  max-width: 984px;
+  max-height: 1005px;
+  margin: 0 auto;
+  padding: 28px 0 22px;
 }
 
 @media screen and (max-width: 1000px){
