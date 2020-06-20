@@ -1,8 +1,8 @@
 .content {
   margin: 0 auto;
   min-width: 300px;
-  max-width: ""84px;
-  min-height: "00vh;
+  max-width: 1184px;
+  min-height: 100vh;
   width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -18,9 +18,9 @@
                   box-sizing: border-box;
 }
 
-@media screen and (max-width: "024px) {
+@media screen and (max-width: 1024px) {
   .content {
-    width: "00%;
+    width: 100%;
     padding: 0 48px;
   }
 }

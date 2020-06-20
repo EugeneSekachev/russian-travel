@@ -4,22 +4,22 @@
 @import url(./__overlay/cover__overlay.css);
 
 .cover {
-  max-width: ""84px;
-  width: calc("00% + "00px);
+  max-width: 1184px;
+  width: calc(100% + 100px);
   margin-bottom: 92px;
 }
 
-@media screen and (max-width: "024px) {
+@media screen and (max-width: 1024px) {
   .cover {
     padding: 0;
-    width: calc("00% + 96px);
+    width: calc(100% + 96px);
   }
 }
 
 @media screen and (max-width: 800px) {
   .cover {
     margin-bottom: 88px;
-    width: "00%;
+    width: 100%;
   }
 }
 

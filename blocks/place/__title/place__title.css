@@ -4,7 +4,7 @@
   font-size: 72px;
   line-height: 76px;
   max-width: 460px;
-  max-height: "52px;
+  max-height: 152px;
   grid-area: title;
   align-self: flex-end;
 }
@@ -16,12 +16,12 @@
     max-width: 340px;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .place__title {
     -ms-flex-item-align: start;
        align-self: flex-start;
     font-size: 32px;
     line-height: 35px;
-    padding: 0 "6px;
+    padding: 0 16px;
   }
 }

@@ -11,7 +11,7 @@
       align-self: flex-start;
 }
 
-@media screen and (max-width: "024px) {
+@media screen and (max-width: 1024px) {
   .intro {
     width: 720px;
   }
@@ -26,6 +26,6 @@
 
 @media screen and (max-width: 480px) {
   .intro {
-    padding: 64px "6px 0;
+    padding: 64px 16px 0;
   }
 }

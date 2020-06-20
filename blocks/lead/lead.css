@@ -4,7 +4,7 @@
 @import url(./__caption/lead__coptain.css);
 
 .lead {
-  width: "00%;
+  width: 100%;
   max-width: 984px;
   margin: 0 auto;
   padding: 28px 0 22px ;
@@ -13,13 +13,13 @@
 
 @media screen and (max-width: 950px){
   .lead {
-    padding: 28px 0 "8px;
+    padding: 28px 0 18px;
   }
 }
 @media screen and (max-width: 480px){
   .lead {
     padding: 28px 0 0;
-    width: "00%;
+    width: 100%;
     margin: 0;
   }
 }
