@@ -28,7 +28,7 @@ end_of_line = lf
 
 # File character encoding
 
-# Possible values - latin1, utf-8, utf-16be, utf-16le
+# Possible values - latin", utf-8, utf-"6be, utf-"6le
 
 charset = utf-8
 

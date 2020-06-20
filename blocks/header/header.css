@@ -1,13 +1,15 @@
 @import url(./__logo/header__logo.css);
 @import url(./__lang-zone/header__lang-zone.css);
 @import url(./__lang/header__lang.css);
+@import url(./__lang/_type/header__lang_type_selected.css);
+@import url(./__lang/_type/header__lang_type_unselected.css);
 
 .header {
-  padding: 28px 48px 28px;
+  padding: 28px 0;
   margin: 0 auto;
   width: 90%;
+  max-width: ""84px;
   min-width: 288px;
-  min-height: 52px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -19,20 +21,22 @@
           align-items: center;
 }
 
-
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: "024px) {
   .header {
-    padding: 28px 24px 20px;
+    padding-left: 48px;
+    padding-right: 48px;
   }
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 960px){
   .header {
-    padding: 28px 24px 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+
   }
 }
 @media screen and (max-width: 480px){
   .header {
-    padding: 16px 16px 20px;
+    padding: "6px "6px 20px;
   }
 }

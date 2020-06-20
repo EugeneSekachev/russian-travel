@@ -4,23 +4,22 @@
 @import url(./__caption/lead__coptain.css);
 
 .lead {
-  width: 90vw;
+  width: "00%;
   max-width: 984px;
-  max-height: 1005px;
   margin: 0 auto;
-  padding: 28px 0 22px;
+  padding: 28px 0 22px ;
+  align-items: flex-start;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 950px){
   .lead {
-    max-width: 100%;
-    padding: 28px 0 18px;
+    padding: 28px 0 "8px;
   }
 }
 @media screen and (max-width: 480px){
   .lead {
-    padding: 16px 0 0;
-    width: 100%;
+    padding: 28px 0 0;
+    width: "00%;
     margin: 0;
   }
 }

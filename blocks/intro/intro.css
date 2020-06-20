@@ -5,20 +5,20 @@
 @import url(./__list-answer/intro__list-answer.css);
 
 .intro {
-  width: 690px;
-  padding: 70px 0 0;
+  max-width: 690px;
+  padding: 70px 0 0 20px;
   -ms-flex-item-align: start;
       align-self: flex-start;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: "024px) {
   .intro {
     width: 720px;
   }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
   .intro {
-    padding: 88px 0 0;
+    padding: 70px 0 0;
     margin: 0 auto;
     width: 90vw;
   }
@@ -26,6 +26,6 @@
 
 @media screen and (max-width: 480px) {
   .intro {
-    padding: 64px 16px 0;
+    padding: 64px "6px 0;
   }
 }

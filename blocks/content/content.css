@@ -1,9 +1,12 @@
 .content {
   margin: 0 auto;
+  min-width: 300px;
+  max-width: ""84px;
+  min-height: "00vh;
+  width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 0;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -11,23 +14,19 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 90%;
-  height: 100%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+          -webkit-box-sizing: border-box;
+                  box-sizing: border-box;
 }
-@media screen and (max-width: 1100px) {
+
+@media screen and (max-width: "024px) {
   .content {
-    width: 90%
+    width: "00%;
+    padding: 0 48px;
   }
 }
-@media screen and (max-width: 1000px) {
+
+@media screen and (max-width: 800px) {
   .content {
-    width: 100%;
+    padding: 0;
   }
-}
-@media screen and (max-width: 480px) {
-  .content {
-    margin: 0;
-    }
 }
