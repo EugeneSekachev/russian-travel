@@ -11,13 +11,13 @@
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 960px) {
   .photo-grid__item {
     min-height: 264px;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 735px) {
   .photo-grid__item {
     min-height: 216px;
   }

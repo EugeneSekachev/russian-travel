@@ -1,3 +1,6 @@
+.header__lang_type_selected:hover {
+  opacity: 1;
+}
 .header__lang_type_selected {
   text-decoration: underline;
 }

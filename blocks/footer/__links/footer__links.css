@@ -1,9 +1,12 @@
 .footer__links {
-  display: inline;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 735px) {
   .footer__links {
+    margin-bottom: 20px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -11,5 +14,6 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+            justify-content: space-evenly;
   }
 }

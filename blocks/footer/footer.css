@@ -1,4 +1,5 @@
 @import url(./__links/footer__links.css);
+@import url(./__link-list/footer__link-list.css);
 @import url(./__link/footer__link.css);
 @import url(./__copyright/footer__copyright.css);
 
@@ -26,16 +27,17 @@
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 960px) {
   .footer {
     padding-right: 24px;
     padding-left: 24px;
     margin: 0;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 735px) {
   .footer {
     padding: 0 0 24px 16px;
+    min-height: 310px;
     margin: 0;
     display: -webkit-box;
     display: -ms-flexbox;

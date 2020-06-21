@@ -1,3 +1,10 @@
+.header__lang:hover {
+  opacity: 0.5;
+  -webkit-transition: 2s linear;
+  -o-transition: 2s linear;
+  transition: 2s linear;
+}
+
 .header__lang {
   display: inline;
   font-weight: normal;
@@ -10,8 +17,7 @@
 .header__lang:last-of-type {
   margin-right: 0;
 }
-
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 735px) {
   .header__lang {
     font-size: 18px;
     line-height: 24px;

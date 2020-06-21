@@ -8,7 +8,7 @@
   grid-area: title;
   align-self: flex-end;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 960px) {
   .place__title {
     font-weight: 900;
     font-size: 42px;
@@ -16,7 +16,7 @@
     max-width: 340px;
   }
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 735px) {
   .place__title {
     -ms-flex-item-align: start;
        align-self: flex-start;

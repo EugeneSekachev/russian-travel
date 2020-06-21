@@ -1,0 +1,16 @@
+.footer__link-list {
+  display: inline;
+  padding-right: 18px;
+}
+.footer__link-list:last-of-type {
+  padding-right: 0;
+}
+
+@media screen and (max-width: 735px) {
+  .footer__link-list {
+    margin-bottom: 32px;
+  }
+  .footer__link-list:last-of-type {
+    margin-bottom: 48px;
+  }
+}

@@ -16,7 +16,7 @@
     padding: 28px 0 18px;
   }
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 735px){
   .lead {
     padding: 28px 0 0;
     width: 100%;
